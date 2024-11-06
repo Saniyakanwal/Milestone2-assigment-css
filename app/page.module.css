@@ -1,0 +1,43 @@
+.div{
+    height: 100vh;
+}
+.div2{
+    display: flex;
+}
+.div3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 48px;
+}
+.h1{
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+}
+.p{
+   font-size: 19px;
+   color:orange;
+   font-style:oblique;
+}
+.button{
+    font-size: larger;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-inline-start: 25px;
+    padding: 8px;
+    color: orangered;
+}
+.button:hover{
+    background-color: orangered;
+    color: yellow;
+}
+.div4{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
