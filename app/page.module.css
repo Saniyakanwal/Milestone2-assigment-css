@@ -41,3 +41,46 @@
     align-items: center;
     margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+    .div3, .div4 {
+        width: 100%; 
+        margin: 20px; 
+    }
+
+    .h1 {
+        font-size: 30px; 
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: medium; 
+        padding: 6px; 
+        margin-inline-start: 20px; 
+    }
+}
+
+/* Responsive styles for phones and very small screens */
+@media (max-width: 480px) {
+    .div3, .div4 {
+        width: 100%; 
+        margin: 15px; 
+    }
+
+    .h1 {
+        font-size: 24px; 
+    }
+
+    .p {
+        font-size: 14px; 
+    }
+
+    .button {
+        font-size: small;
+        padding: 5px; 
+        margin-inline-start: 15px; 
+    }
+}
